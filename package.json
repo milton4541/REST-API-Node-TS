@@ -1,0 +1,28 @@
+{
+  "name": "restapi-node-ts-sv",
+  "version": "1.0.0",
+  "description": "REST API's con Express y TS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milton4541/REST-API-Node-TS.git"
+  },
+  "author": "Milton4541",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milton4541/REST-API-Node-TS/issues"
+  },
+  "homepage": "https://github.com/milton4541/REST-API-Node-TS#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
